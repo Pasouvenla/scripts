@@ -1,7 +1,7 @@
 #!/bin/bash
 ####################################################
 #                                                  #
-# Configuration automatique de Debian              #
+#       Configuration automatique de Debian        #
 #                                                  #
 ####################################################
 
