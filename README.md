@@ -1,14 +1,19 @@
 # scripts
 
 Utilisation
+
 Installation de Git :
 
- apt install -y git
+ ``apt install -y git``
+
+
 Récupération des scripts :
 
-git clone https://github.com/PAPAMICA/scripts
+``git clone https://github.com/PAPAMICA/scripts``
+
+
 Exécuter un script :
 
-cd scripts/debian/script_folder
+``cd scripts/debian/script_folder
 chmod +x name_of_script.sh
-./name_of_scripts.sh
+./name_of_scripts.sh``
