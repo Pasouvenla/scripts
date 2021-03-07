@@ -45,6 +45,7 @@ function Install-PaquetsEssentiels {
   apt update && apt upgrade -y
   apt install -y sudo 
   apt install -y chpasswd
+  apt install -y openssh-server
   apt install -y cockpit
   apt install -y locate
   apt install -y zsh
@@ -421,6 +422,8 @@ if [ $change_sshport = "y" ]
   tput bold; tput setaf 7; echo "                             Votre nouveau port SSH : $ssh_port                        "
 fi
 tput setaf 7; echo ""
+tput bold; tput setaf 6; echo "                                       Pasouvenla Inc.                                   "
+tput bold; tput setaf 6; echo "                                                                                         "
 tput setaf 7; echo "----------------------------------------------------------------------------------------------------"
 tput setaf 2; echo ""
 
