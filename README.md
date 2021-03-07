@@ -14,6 +14,8 @@ Récupération des scripts :
 
 Exécuter un script :
 
-``cd scripts
-chmod +x debian_startup.sh
-./debian_startup.sh``
+``cd scripts``
+
+``chmod +x debian_startup.sh``
+
+``./debian_startup.sh``
