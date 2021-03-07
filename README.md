@@ -9,11 +9,11 @@ Installation de Git :
 
 Récupération des scripts :
 
-``git clone https://github.com/PAPAMICA/scripts``
+``git clone https://github.com/Pasouvenla/scripts``
 
 
 Exécuter un script :
 
-``cd scripts/debian/script_folder
-chmod +x name_of_script.sh
-./name_of_scripts.sh``
+``cd scripts
+chmod +x debian_startup.sh
+./debian_startup.sh``
